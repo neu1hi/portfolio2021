@@ -1,0 +1,271 @@
+* {
+    margin: 0 auto
+}
+
+html {
+    font-size: 10px
+}
+
+body {
+    width: 100%;
+    height: 100%
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.sub1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: -10rem
+}
+
+.sub2 img{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 3.5rem auto;
+}
+
+.sub3 img{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 3.5rem auto;
+    
+}
+
+.sub1_btn-set {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10rem
+}
+
+.sub1_btn {
+    text-align: center;
+    font-size: 3rem;
+    width: 50rem;
+    height: 15rem;
+    line-height: 15rem;
+    border: 3px solid ;
+    background-color: #000;
+    color: #fff;
+}
+
+.sub1_btn1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 50rem;
+    height: 15rem;
+    line-height: 15rem;
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.sub2_btn-set {
+    text-align: center;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.sub2_btn1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 50rem;
+    height: 8rem;
+    line-height: 8rem;
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.sub2_btn {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    height: 14rem;
+    line-height: 14rem;
+    border: 3px solid #000 ;
+    background-color: #000;
+    color: #fff;
+}
+
+.sub3_btn-set {
+    text-align: center;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.sub3_btn {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    height: 14rem;
+    line-height: 14rem;
+    border: 3px solid #000 ;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*.sub2_btn {
+    text-align: center;
+    font-size: 3rem;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px solid ;
+    background-color: #b6b2b2;
+    color: #fff;
+}*/
+
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.pulsate-bck {
+    -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-bck {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes p1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sub1_btn-set {
+    /*background-color: #000;*/
+    opacity: .8;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+
+    @-webkit-keyframes pulsate-bck {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+        50% {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+}
+
+/*.sub1_btn:hover {
+    background-color: #000
+}*/
+
+.sub2_btn-set {
+    background-color: #000;
+    opacity: .8;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+
+    @-webkit-keyframes pulsate-bck {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+        50% {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+}
+
+.sub3_btn-set {
+    background-color: #000;
+    opacity: .8;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+
+    @-webkit-keyframes pulsate-bck {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+        50% {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+}
