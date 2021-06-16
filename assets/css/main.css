@@ -2391,7 +2391,7 @@ button:disabled,
 }
 
 .panel > *.color0 {
-    background-image: url("../../images/bg12.png"),
+    background-image: url("../../images/bg15.png"),
         linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
     background-size: cover;
 }
@@ -2403,7 +2403,7 @@ button:disabled,
 }
 
 .panel > *.color2 {
-    background-image: url("../../images/bg12.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-image: url("../../images/bg15.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
     background-size: cover
    
     /*background-color: #e37b7c;*/
@@ -2416,8 +2416,8 @@ button:disabled,
 }
 
 .panel > *.color4 {
-    background-image: url("../../images/bg12.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-    background-size:  cover;
+    background-image: url("../../images/bg15.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size:  cover; /*마지막멘트*/
    /* background-color: #353865;*/
 }
 
@@ -2995,8 +2995,9 @@ button:disabled,
 }
 
 .panel.color1 {
-    background-image: url("../../images/bg12.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-image: url("../../images/bg15.png")/*, linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25))*/;
     background-size: cover;
+    /*스킬배경*/
 
 
 
@@ -3061,7 +3062,7 @@ button:disabled,
     }
 
     .panel > *.color2 {
-        background-image: url("../../images/bg12.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+        background-image: url("../../images/bg15.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
         background-size: cover;
         /*background-color: #e37b7c;*/ /*모바일bg*/
     }
@@ -3073,7 +3074,7 @@ button:disabled,
     }
 
     .panel > *.color4 {
-        background-image: url("../../images/bg12.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+        background-image: url("../../images/bg15.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
         background-size: cover;
         /*background-color: #353865;*/
     }
@@ -3564,7 +3565,7 @@ button:disabled,
     }
 
     .panel.color1 {
-        background-image: url("../../images/bg12.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+        background-image: url("../../images/bg15.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
         background-size: cover;
         /*background-color: #726193;*/ /*모바일bg*/
     }
